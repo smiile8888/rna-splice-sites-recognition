@@ -5,10 +5,11 @@
    Many studies have proposed models to recognize the splice sites to reveal which splice sites contain a mutation that may cause a splicing error. Position-Weight-Matrix (PWM) is a model commonly used to recognize DNA-binding motif sequences by transforming sequence data into a probability matrix [[3]](#references). It can be used to recognize simple sequence structures. However, growing evidence indicates that sequence specificities can be more accurately captured by more complex techniques [[4-6]](#references). Recently, some deep learning methods outperformed other recent approaches in many problems including DNA-binding sites recognition [[7-9]](#references) but not much work has specifically been done in recognition of RNA Splice sites. Therefore, I plan to apply a Convolutional Neural Network (CNN) model to the task of recognizing the splice sites and classifying the sequence whether is pathogenic or not.
 
 ## Goals
-- Build a model to recognize splice sites – both of donor and acceptor
-- Build a mutation scoring system
-    - To determine whether or not a mutation causes mis-recognizing of spliceosome
-- Use as a baseline for a competition of a coming conference this year
+- Build deep learning models to recognize splice sites – both of donor and acceptor
+- Use as a baseline for a competition of a coming conference this year - [CSBio2018](http://www.csbio.org/2018/)
+
+## Acknowledgement
+I would like to thank Worrawat Engchuan for preprocessing the dataset.
 
 ## References
 1. Berget, Susan M., Claire Moore, and Phillip A. Sharp. "Spliced segments at the 5′ terminus of adenovirus 2 late mRNA." Proceedings of the National Academy of Sciences 74.8 (1977): 3171-3175.
