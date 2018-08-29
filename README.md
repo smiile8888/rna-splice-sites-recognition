@@ -8,6 +8,10 @@
 - Build deep learning models to recognize splice sites – both of donor and acceptor
 - Use as a baseline for a competition of a coming conference this year - [CSBio2018](http://www.csbio.org/2018/)
 
+## Requirements and Installation
+- Python 3+
+- Keras with TensorFlow backend
+
 ## Acknowledgement
 I would like to thank Worrawat Engchuan for preprocessing the dataset.
 
