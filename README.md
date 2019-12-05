@@ -1,12 +1,12 @@
-# RNA Splice Sites Recognition
+# RNA Splice Site Recognition
 
    In Eukaryotes, the initial RNA or precursor-mRNA that is transcribed from a gene’s DNA template must be processed before it becomes a mature messenger RNA (mRNA) that can direct the synthesis of protein. One of the steps in this processing, called “RNA splicing,” involves the removal or splicing out of certain sequences referred to as intervening sequences, or introns. The final mRNA thus consists of the remaining sequences, called exons, which are connected to one another through the splicing process. Some RNA molecules have the capability to splice themselves but some splice alternatively. The splicing research [[1]](#references) discovered that alternative patterns of splicing within a single precursor-mRNA at different junctions could yield in a variety of mature mRNAs. Most of the alternative splicing is caused by a mutation of a splice site which can reduce spliceosome binding specificity of that splice site or completely make it loss of function. The alternative splicing can produce different functional proteins, which could lead to causing many diseases in human [[2]](#references). 
 
    Many studies have proposed models to recognize the splice sites to reveal which splice sites contain a mutation that may cause a splicing error. Position-Weight-Matrix (PWM) is a model commonly used to recognize DNA-binding motif sequences by transforming sequence data into a probability matrix [[3]](#references). It can be used to recognize simple sequence structures. However, growing evidence indicates that sequence specificities can be more accurately captured by more complex techniques [[4-6]](#references). Recently, some deep learning methods outperformed other recent approaches in many problems including DNA-binding sites recognition [[7-9]](#references) but not much work has specifically been done in recognition of RNA Splice sites. Therefore, I plan to apply a Convolutional Neural Network (CNN) model to the task of recognizing the splice sites and classifying the sequence whether is pathogenic or not.
 
 ## Goals
-- Build deep learning models to recognize splice sites – both donor and acceptor
-- Use as a baseline for competition/hackathon/workshop of [DLAI 2](https://deeplearningandaiwinterschool.github.io/)
+- Propose a framework to predict the effect of variants on splicing events
+- Establish the pipeline based on deep learning models to recognize splice sites and predict the variants
 
 ## Requirements and Installation
 - Python 3+
@@ -16,7 +16,7 @@
 - sklearn
 
 ## Acknowledgement
-I would like to thank Daniele Merico and Worrawat Engchuan for providing the dataset and guiding about a splicing.
+I would like to thank Daniele Merico and Worrawat Engchuan for providing the dataset and guiding about a splicing. The dataset was provided as part of competition tracks of [DLAI 2](https://deeplearningandaiwinterschool.github.io/)
 
 ## References
 1. Berget, Susan M., Claire Moore, and Phillip A. Sharp. "Spliced segments at the 5′ terminus of adenovirus 2 late mRNA." Proceedings of the National Academy of Sciences 74.8 (1977): 3171-3175.
