@@ -31,8 +31,8 @@ def write_preprocess_data(file_name, data):
 def transform_seq_to_Vmatrix(sequence):
     """
     To transform a sequence to binary matrix of Xx4
-    :param sequence:
-    :return:
+    :param sequence: sequence data
+    :return: 2-dimensional numerical array representing sequences
     """
     m = []
     for x in sequence:
@@ -50,8 +50,8 @@ def transform_seq_to_Vmatrix(sequence):
 def transform_seq_to_Hmatrix(sequence):
     """
     To transform a sequence to binary matrix of 4xX
-    :param sequence:
-    :return:
+    :param sequence: sequence data
+    :return: 2-dimensional numerical array representing sequences
     """
     m = []
     a = [1 if x == 'A' else 0 for x in sequence]
