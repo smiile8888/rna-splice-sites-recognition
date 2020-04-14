@@ -15,6 +15,10 @@
 - Pandas
 - sklearn
 
+## Pseudocode for data preparation, i.e., splice site data and variant data
+1. Getting splice site data [Link](https://github.com/smiile8888/rna-splice-sites-recognition/blob/master/getting-splice-sites.md)
+2. Getting variant data: [Link](https://github.com/smiile8888/rna-splice-sites-recognition/blob/master/getting-variant-data.md)
+
 ## Acknowledgement
 I would like to thank Daniele Merico and Worrawat Engchuan for providing the dataset and guiding about a splicing. The dataset was provided as part of competition tracks of [DLAI 2](https://deeplearningandaiwinterschool.github.io/)
 
