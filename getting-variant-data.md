@@ -6,7 +6,7 @@
 ```
 
 2. Obtain variants data from ClinVar
-    - [Link to download](ftp://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/variant_summary.txt.gz)
+    - Link to download: ftp://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/variant_summary.txt.gz
     - In the file, only following columns are required; Clinical significance, Assembly, Chromosome, Start, Stop, ReferenceAllele, AlternateAllele
     - Only variants from GRch37 (hg19) assembly are needed. Clinical significance is used for labeling the variants i.e. benign and likely benign is ctrl (0), while pathogenic and likely pathogenic is case (1).
 ```
